@@ -4,18 +4,20 @@ DIRECTORIO ---> BACK-END:Sprin Framework 4
 
 1.-Crear base de datos "prueba_azurian_db" en MYSQL.
 
-2.-Ejecutar el archivo "sql-table-data.sql", que se encuentra en la ra韟 de la aplicaci髇 "backend", sobre la base de datos
+2.-Ejecutar el archivo "sql-table-data.sql", que se encuentra en la ra铆z de la aplicaci贸n "backend", sobre la base de datos
 anteriormente creada.
 
 3.-Cambiar datos de "database.user" y "database.password" en el arhivo "application.properties".
 
 4.-Cambiar si sus valores son otros, el hostname y puerto de la base de datos en "database.url", 
 
-5.-Correr el servidor de la aplicaci髇 en tomcat.
+5.-Correr el servidor de la aplicaci贸n en tomcat.
 
 DIRECTORIO ---> FRONT-END:Angular
 
-1.-Con una "l韓ea de comandos" dir韏ase al directorio ra韟 del proyecto "frontend" y ejecute el siguiente comando: "npm install",
-para obtener los paquetes de los cuales depende la aplicaci髇.
+1.-Se requiere el entorno NodeJs con npm.
 
-2.-Ejecute en el mismo directorio el comando "ng serve" y abra la aplicaci髇 en el puerto indicado.
+1.-Con una "l铆nea de comandos" dir铆jase al directorio ra铆z del proyecto "frontend" y ejecute el siguiente comando: "npm install",
+para obtener los paquetes de los cuales depende la aplicaci贸n.
+
+2.-Ejecute en el mismo directorio el comando "ng serve" y abra la aplicaci贸n en el puerto indicado.
