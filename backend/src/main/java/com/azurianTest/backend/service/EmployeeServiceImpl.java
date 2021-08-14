@@ -17,11 +17,12 @@ public class EmployeeServiceImpl implements EmployeeService {
 	
 	@Autowired
 	private EmployeeDAO employeeDAO;
-
+	
+	//Inicia una transacción.
 	@Transactional
 	@Override
 	public List<Employee> findAll() {
-		//Devuelve la lista de empleados desde el repositorio
+		//Devuelve la lista de empleados desde el repositorio.
 		return employeeDAO.findAll();
 	}
 
