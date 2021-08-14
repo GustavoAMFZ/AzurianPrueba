@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="card">
+        <div class="card-header cardStyle">
+            <h3>Empleados</h3>
+        </div>
+        <div class="card-body">
+            <!-- datatables -->
+            <table class="table table-bordered table-striped table-hover tableStyle" datatable [dtOptions]="dtOptions" [dtTrigger]="dtTrigger">
+                <thead>
+                    <tr>
+                        <th class="thStyle">id</th>
+                        <th class="thStyle">Nombres</th>
+                        <th class="thStyle">Apellidos</th>
+                        <th class="thStyle">Cargo</th>
+                        <th class="thStyle">Correo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Iteración de los empleados obtenidos desde el servidor -->
+                    <tr *ngFor="let employee of employees" class="text-center">
+                        <td>{{employee.id}}</td>
+                        <td>{{employee.name}}</td>
+                        <td>{{employee.lastName}}</td>
+                        <td>{{employee.job}}</td>
+                        <td>{{employee.email}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

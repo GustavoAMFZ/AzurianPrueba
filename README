@@ -1,0 +1,21 @@
+		PASOS PARA EJECUTAR PROGRAMA
+
+DIRECTORIO ---> BACK-END:Sprin Framework 4
+
+1.-Crear base de datos "prueba_azurian_db" en MYSQL.
+
+2.-Ejecutar el archivo "sql-table-data.sql", que se encuentra en la raíz de la aplicación "backend", sobre la base de datos
+anteriormente creada.
+
+3.-Cambiar datos de "database.user" y "database.password" en el arhivo "application.properties".
+
+4.-Cambiar si sus valores son otros, el hostname y puerto de la base de datos en "database.url", 
+
+5.-Correr el servidor de la aplicación en tomcat.
+
+DIRECTORIO ---> FRONT-END:Angular
+
+1.-Con una "línea de comandos" diríjase al directorio raíz del proyecto "frontend" y ejecute el siguiente comando: "npm install",
+para obtener los paquetes de los cuales depende la aplicación.
+
+2.-Ejecute en el mismo directorio el comando "ng serve" y abra la aplicación en el puerto indicado.
