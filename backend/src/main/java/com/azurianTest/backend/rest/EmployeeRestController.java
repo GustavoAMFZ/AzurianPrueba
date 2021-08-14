@@ -12,7 +12,7 @@ import com.azurianTest.backend.entity.Employee;
 import com.azurianTest.backend.service.EmployeeService;
 
 //Permite que se puedan solicitar recursos desde otro dominio, en este caso por "http://localhost:4200/"
-@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
+@CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @RequestMapping("/api")
 public class EmployeeRestController {
