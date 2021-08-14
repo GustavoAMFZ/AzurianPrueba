@@ -2,6 +2,8 @@
 
 DIRECTORIO ---> BACK-END:Sprin Framework 4
 
+1.-Importar proyecto "backend" en eclipse como proyecto maven.
+
 1.-Crear base de datos "prueba_azurian_db" en MYSQL.
 
 2.-Ejecutar el archivo "sql-table-data.sql", que se encuentra en la raíz de la aplicación "backend", sobre la base de datos
