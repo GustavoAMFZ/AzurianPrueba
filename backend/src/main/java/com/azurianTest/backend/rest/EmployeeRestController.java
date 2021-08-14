@@ -23,7 +23,7 @@ public class EmployeeRestController {
 	@GetMapping("/employees")
 	public List<Employee> findAll() {
 		/*Devuelve la lista de empleados desde el "EmployeeService" y la url es recuperada en formato JSON, 
-		en este caso por el frontend de Angular*/
+		en este caso por el servicio en el frontend de Angular*/
 		return employeeService.findAll();
 	}
 }
