@@ -22,4 +22,5 @@ DIRECTORIO ---> FRONT-END:Angular
 1.-Con una "línea de comandos" diríjase al directorio raíz del proyecto "frontend" y ejecute el siguiente comando: "npm install",
 para obtener los paquetes de los cuales depende la aplicación.
 
-2.-Ejecute en el mismo directorio el comando "ng serve" y abra la aplicación en el puerto indicado.
+2.-Ejecute en el mismo directorio el comando "ng serve" y abra la aplicación en el puerto indicado (el puerto y nombre de host deben coincidir con el 
+crossorigin en EmployeeRestController para poder autorizar la solicitud).
