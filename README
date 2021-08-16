@@ -10,7 +10,7 @@ DIRECTORIO ---> BACK-END:Spring Framework 4
 
 4.-Cambiar datos de "database.user" y "database.password" con los propios, en el archivo "application.properties".
 
-5.-Cambiar si sus valores son otros, el hostname y puerto de la base de datos en "database.url", 
+5.-Cambiar si sus valores son otros, el hostname y puerto de la base de datos mysql en "database.url", 
 
 6.-Correr la aplicación en servidor tomcat.
 
