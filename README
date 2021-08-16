@@ -4,22 +4,22 @@ DIRECTORIO ---> BACK-END:Spring Framework 4
 
 1.-Importar proyecto "backend" como proyecto maven.
 
-1.-Crear base de datos "prueba_azurian_db" en MYSQL.
+2.-Crear base de datos "prueba_azurian_db" en MYSQL.
 
-2.-Ejecutar el archivo "sql-table-data.sql", que se encuentra en la raíz de la aplicación "backend", sobre la base de datos
+3.-Ejecutar el archivo "sql-table-data.sql", que se encuentra en la raíz de la aplicación "backend", sobre la base de datos
 anteriormente creada.
 
-3.-Cambiar datos de "database.user" y "database.password" en el arhivo "application.properties".
+4.-Cambiar datos de "database.user" y "database.password" en el arhivo "application.properties".
 
-4.-Cambiar si sus valores son otros, el hostname y puerto de la base de datos en "database.url", 
+5.-Cambiar si sus valores son otros, el hostname y puerto de la base de datos en "database.url", 
 
-5.-Correr el servidor de la aplicación en tomcat.
+6.-Correr el servidor de la aplicación en tomcat.
 
 DIRECTORIO ---> FRONT-END:Angular
 
 1.-Se requiere el entorno NodeJs con npm.
 
-1.-Con una "línea de comandos" diríjase al directorio raíz del proyecto "frontend" y ejecute el siguiente comando: "npm install",
+2.-Con una "línea de comandos" diríjase al directorio raíz del proyecto "frontend" y ejecute el siguiente comando: "npm install",
 para obtener los paquetes de los cuales depende la aplicación.
 
-2.-Ejecute en el mismo directorio el comando "ng serve" y abra la aplicación en el puerto indicado (el puerto y nombre de host deben coincidir con el crossorigin en EmployeeRestController para poder autorizar la solicitud).
+3.-Ejecute en el mismo directorio el comando "ng serve" y abra la aplicación en el puerto indicado (el puerto y nombre de host deben coincidir con el crossorigin en EmployeeRestController para poder autorizar la solicitud).
