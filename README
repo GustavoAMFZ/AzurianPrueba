@@ -13,7 +13,7 @@ anteriormente creada.
 
 5.-Cambiar si sus valores son otros, el hostname y puerto de la base de datos en "database.url", 
 
-6.-Correr el servidor de la aplicación en tomcat.
+6.-Correr la aplicación en servidor tomcat.
 
 DIRECTORIO ---> FRONT-END:Angular
 
