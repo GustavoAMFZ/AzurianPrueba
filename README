@@ -6,10 +6,9 @@ DIRECTORIO ---> BACK-END:Spring Framework 4
 
 2.-Crear base de datos "prueba_azurian_db" en MYSQL.
 
-3.-Ejecutar el archivo "sql-table-data.sql", que se encuentra en la raíz de la aplicación "backend", sobre la base de datos
-anteriormente creada.
+3.-Ejecutar el archivo "sql-table-data.sql", que se encuentra en la raíz de la aplicación "backend", sobre la base de datos anteriormente creada.
 
-4.-Cambiar datos de "database.user" y "database.password" en el arhivo "application.properties".
+4.-Cambiar datos de "database.user" y "database.password" con los propios, en el archivo "application.properties".
 
 5.-Cambiar si sus valores son otros, el hostname y puerto de la base de datos en "database.url", 
 
@@ -19,7 +18,6 @@ DIRECTORIO ---> FRONT-END:Angular
 
 1.-Se requiere el entorno NodeJs con npm.
 
-2.-Con una "línea de comandos" diríjase al directorio raíz del proyecto "frontend" y ejecute el siguiente comando: "npm install",
-para obtener los paquetes de los cuales depende la aplicación.
+2.-Con una "consola de comandos" diríjase al directorio raíz del proyecto "frontend" y ejecute el comando "npm install", para obtener los paquetes de los cuales depende la aplicación.
 
 3.-Ejecute en el mismo directorio el comando "ng serve" y abra la aplicación en el puerto indicado (el puerto y nombre de host deben coincidir con el crossorigin en EmployeeRestController para poder autorizar la solicitud).
